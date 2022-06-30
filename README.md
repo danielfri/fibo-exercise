@@ -14,6 +14,7 @@ Have you ever wanted to get a tree structure of a github public repo?
 
 ## But how?
 
+Download this repo.
 In order to run the app, you should go the root folder and:
 
 1. install the dependencies in the root folder using -> npm install

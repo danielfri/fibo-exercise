@@ -1,16 +1,13 @@
 {
   "name": "fibo-exercise",
   "version": "1.0.0",
-  "homepage": "https://danielfri.github.io/fibo-exercise",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server/index.js",
-    "client": "cd client && npm start",
-    "start": "node server/index.js",
-    "predeploy": "cd client && npm run build",
-    "deploy": "cd client && gh-pages -d build"
+    "client": "cd client && npm run build",
+    "postinstall": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",

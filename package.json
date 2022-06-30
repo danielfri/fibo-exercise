@@ -1,0 +1,25 @@
+{
+  "name": "fibo-exercise",
+  "version": "1.0.0",
+  "homepage": "https://danielfri.github.io/fibo-exercise",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "start": "node server/index.js",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
